@@ -10,9 +10,9 @@ id_pattern = re.compile(r'^.\d+$')
 class Rkn_Bots(object):
     
     # Rkn client config  ( required.. 😥)
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = os.environ.get("API_ID", "23631217")
+    API_HASH = os.environ.get("API_HASH", "567c6df308dc6901790309499f729d12")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8153208191:AAET_YAHGjeLFNXf0q1Wy1zWVoGNwcyMnlY")
 
     # start_pic
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/21a8e96b45cd6ac4d3da6.jpg")
