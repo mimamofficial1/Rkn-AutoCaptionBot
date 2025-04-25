@@ -25,7 +25,7 @@ class Rkn_Bots(object):
     FORCE_SUB = os.environ.get("FORCE_SUB", "MRN_RIPPER") 
     
     # database config ( required.. 😥)
-    DB_NAME = os.environ.get("DB_NAME", "AutoCaption_V05_Bot")     
+    DB_NAME = os.environ.get("DB_NAME", "trumbot")     
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://trumbot:trumbot@cluster0.cfkaeno.mongodb.net/?retryWrites=true&w=majority")
 
     # default caption 
